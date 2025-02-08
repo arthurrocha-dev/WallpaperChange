@@ -1,0 +1,45 @@
+# Build e arquivos gerados
+bin/
+obj/
+out/
+
+# Depend�ncias do NuGet
+*.nuget/
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+*.props
+*.targets
+
+# Configura��es locais e arquivos do Visual Studio
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# Logs, cache e tempor�rios
+*.log
+logs/
+*.cache
+*.csproj.user
+ipch/
+*.pidb
+*.sdf
+*.pdb
+
+# Configura��o do Windows e PowerShell
+Desktop.ini
+Thumbs.db
+*.lnk
+
+# Arquivos de depura��o e crash dumps
+*.dmp
+*.sw
+
+# Arquivo de versoes de insladores
+versions/
